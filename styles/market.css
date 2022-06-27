@@ -1,0 +1,95 @@
+*{
+    font-family: 'Exo 2', sans-serif;
+    line-height: normal;
+    color: #fff;
+}
+
+.screen__main{
+    width: 100%;
+    height: 100%;
+}
+
+/* HEADER */
+
+header{
+    width: 100%;
+    height: 64px;
+    background-color: #1D2127;
+    padding: 0 20px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo{
+    display: flex;
+    max-width: 88px;
+    max-height: 26px;
+    align-self: center;
+}
+
+.header__nav{
+    display: flex;
+}
+
+.header__btns{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.header__btn{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header__btn p{
+    margin: 5px 0px;
+}
+
+.header__registration{
+    display: flex;
+}
+
+.header__login{
+    border-radius: 5px;
+}
+
+.header__register{
+    background-color: #00ADB5;
+    border-radius: 5px;
+}
+
+/* Footer */
+
+footer{
+    background-color: #1D2127;
+    width: 100%;
+    height: 100px;
+}
+
+.footer__box{
+    padding: 0px 40px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__box p{
+    margin-left: 60px;
+    font-size: 14px;
+    color: #3C4656;
+}
+
+.footer__social{
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

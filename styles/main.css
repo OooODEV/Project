@@ -1,0 +1,573 @@
+*{
+    font-family: 'Exo 2', sans-serif;
+    line-height: normal;
+    color: #fff;
+}
+
+.screen__main{
+    width: 100%;
+    height: 100%;
+}
+
+/* HEADER */
+
+header{
+    position: relative;
+    width: 100%;
+    height: 64px;
+    background-color: #1D2127;
+    padding: 0 20px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo{
+    display: flex;
+    max-width: 88px;
+    max-height: 26px;
+    align-self: center;
+}
+
+.header__nav{
+    display: flex;
+}
+
+.header__btns{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.header__btn{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    width: 120px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.header__btn p{
+    margin: 5px 0px;
+}
+
+.header__registration{
+    display: flex;
+}
+
+.header__login{
+    border-radius: 5px;
+}
+
+.header__register{
+    background-color: #00ADB5;
+    border-radius: 5px;
+}
+
+/* START */
+
+.start{
+    background-image: url("../images/bg_start.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    margin: auto;
+    max-width: 1200px;
+    max-height: 100%;
+}
+
+.start__intro{
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+    justify-content: space-between;
+}
+
+.start__intro__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.start__intro__text h1{
+    margin-bottom: 40px;
+}
+
+.start__btn{
+    background-color: #00ADB5;
+    font-weight: 400;
+    border-radius: 5px;
+    display: flex;
+    width: 175px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+
+.start__btn p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400px;
+    color: #fff;
+}
+
+.start__advantages{
+    display: flex;
+    margin-top: 50px;
+    padding-bottom: 80px;
+    justify-content: space-around;
+}
+
+.start__advantages__opt{
+    display: flex;
+    flex-direction: column;
+}
+
+.start__advantages__opt h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.start__advantages__opt p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #fff;
+}
+
+/* CreateCrypto */
+
+.createcrypto{
+    width: 100%;
+    height: 100%;
+    background-color: #1D2127;
+}
+
+.createcrypto__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 0;
+}
+
+.createcrypto__text{
+    margin-bottom: 40px;
+}
+
+.createcrypto__text h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.createcrypto__text p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.createcrypto__cards{
+    display: flex;
+    width: 100%;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+
+.createcrypto__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    padding: 40px 30px;
+    background-color: #222831;
+    width: 380px;
+    height: 400px;
+}
+
+.createcrypto__card img{
+    width: 150px;
+    height: 150px;
+}
+
+.createcrypto__cardtext h3{
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.createcrypto__cardtext p{
+    font-size: 16px;
+}
+
+/* WhyWe */
+
+.whywe{
+    background-image: url("../images/whywe__bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.whywe__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.whywe__box h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.whywe__cards{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.whywe__card{
+    display: flex;
+    align-items: center;
+}
+
+.whywe__card h3{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.whywe__card p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.whywe__card img{
+    margin-right: 222px;
+}
+
+.reverse img{
+    margin: 40px 0 40px 222px;
+}
+
+/* StartNow */
+
+.startnow{
+    background-color: #1D2127;
+    width: 100%;
+    height: 100%;
+}
+
+.startnow__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.startnow__box h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+/* Questions */
+
+.questions{
+    background-image: url("../images/Question__bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.questions__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.questions__textbox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.questions__textbox img{
+    
+}
+
+.questions__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.questions__text h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.questions__text p{
+    font-size: 26px;
+}
+
+.questions__ask{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.questions__ask p{
+    color: #00ADB5;
+}
+
+.arrow{
+    border: solid #00ADB5;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+/* Footer */
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #1D2127;
+    width: 100%;
+    height: 100px;
+}
+
+.footer__box{
+    padding: 0px 40px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__box p{
+    margin-left: 60px;
+    font-size: 14px;
+    color: #3C4656;
+}
+
+.footer__social{
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Market Page */
+.market__body{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    background-color: #222831;
+    padding: 80px 0;
+}
+
+.market__box{
+}
+
+.market__filters{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    background-color: #1D2127;
+}
+
+.market__filters__category{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 60px;
+    text-align: center;
+}
+
+.market__filters__category p{
+    font-size: 14px;
+}
+
+.market__cryptos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.market__crypto{
+    width: 100%;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid #fff 1px;
+}
+
+.market__crypto__category{
+    width: 240px;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.market__shortname{
+    margin: 0px 20px;
+    font-size: 16px;
+}
+
+.market__longname{
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.green {
+    color: #00ED26;
+}
+
+.red {
+    color: red;
+}
+
+/* Login */
+
+.login {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 90%;
+    background-color: #222831;
+}
+
+#login-form{
+    background-color: #3C4656;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 25%;
+}
+
+#login-form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+#login-email{
+    border: none;
+    border-radius: 5px;
+    background-color: #1D2127;
+}
+
+#login-password{
+    border: none;
+    border-radius: 5px;
+    background-color: #1D2127;
+}
+
+#submit-login{
+    margin-top: 20px;
+    background-color: #00ADB5;
+    border-radius: 5px;
+    border: none;
+    width: 175px;
+    height: 40px;
+}
+
+/* Register */
+
+.register {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 90%;
+    background-color: #222831;
+}
+
+#register-form{
+    background-color: #3C4656;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 25%;
+}
+
+#register-form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+#register-name{
+    border: none;
+    border-radius: 5px;
+    background-color: #1D2127;
+}
+
+#register-email{
+    border: none;
+    border-radius: 5px;
+    background-color: #1D2127;
+}
+
+#register-password{
+    border: none;
+    border-radius: 5px;
+    background-color: #1D2127;
+}
+
+#submit-register{
+    margin-top: 20px;
+    background-color: #00ADB5;
+    border-radius: 5px;
+    border: none;
+    width: 175px;
+    height: 40px;
+}
